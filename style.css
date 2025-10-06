@@ -12,6 +12,7 @@ p {
     text-align: center;
     font-family: cursive;
     font-size: 29px
+    color: #fff;
 }
 
 /* nền lá thư */
@@ -48,14 +49,14 @@ body {
 
 
 .envelop {
-    background-color: #f08080;
+    background-color:  #247ba0;
     width: 300px;
     height: 200px; 
     position: relative; 
 }
 
 .envelop::before {
-    background-color: #f08080;
+    background-color: #247ba0;
     position: absolute; 
     content: "";
     top: -105px;
@@ -221,7 +222,7 @@ body {
 
 .front {
     position: absolute;
-    border-right: 180px solid #f4978e;
+    border-right: 180px solid #;
     border-top: 95px solid transparent;
     border-bottom: 100px solid transparent;
     left: 120px;
@@ -234,7 +235,7 @@ body {
 .front::before {
     position: absolute;
     content: "";
-    border-left: 300px solid #f8ad9d;
+    border-left: 300px solid #247ba0;
     border-top: 195px solid transparent;
     left: -120px;
     top: -95px;
@@ -260,3 +261,4 @@ body {
         transform: scaleX(0.85);
     }
 }
+
